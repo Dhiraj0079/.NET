@@ -96,6 +96,17 @@ namespace Practice
             //inbuilt packages
             //how to use DDL
             //c# +ADO .net coonectivity
+            Calculator calc = new Calculator();
+            int result = calc.Add(5, 10);
+            Console.WriteLine(result);
         }
     }
+    class Calculator
+    {
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+    }
+
 }
